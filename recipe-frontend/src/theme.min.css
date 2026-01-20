@@ -1,0 +1,43 @@
+/* =========================
+   THEME MIN.CSS
+   ========================= */
+
+/* Primary Colors */
+:root {
+  --primary-color: #ff6f61;
+  --secondary-color: #333;
+  --bg-color: #fdfcfb;
+  --text-color: #555;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 0.6rem 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #ff3b1f;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: #ff3b1f;
+}
+
+/* Card shadows & rounded corners */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
