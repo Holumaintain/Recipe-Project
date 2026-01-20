@@ -19,5 +19,18 @@ A full-stack recipe sharing application built with React, Vite, and modern UI pa
 ## Getting Started
 ```bash
 cd recipe-frontend
+
+
+---
+
+### 3️⃣ Future Pushes (Super Simple Now)
+
+Whenever you change code:
+
+```bash
+git add .
+git commit -m "Describe what you changed"
+git push
+
 npm install
 npm run dev
